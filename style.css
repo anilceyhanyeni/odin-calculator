@@ -1,0 +1,49 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px;
+    
+}
+button {
+    background-color: rgb(132, 214, 235);
+    color:red;
+    padding:24px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+.rows {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    border: 2px solid black;
+}
+
+.display {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding:40px;
+    margin-bottom: 16px;
+}
+
+.rowThree {
+    display: flex; 
+}
+
+.rowTwo {
+    display: flex;
+}
+
+.rowOne {
+    display: flex;
+}
+
+.rowClear {
+    display: flex;
+    justify-content: center;
+}
